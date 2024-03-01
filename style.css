@@ -13,7 +13,7 @@ main {
 /* explore travel section styles */
 
 #hero-banner {
-    height: 535px;
+    height: 500px;
     background-image: url('./images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,7 +21,8 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 0.8;
+    border-radius: 15px;
+    margin-bottom: 100px;
 }
 
 .hero-content {
@@ -47,21 +48,26 @@ main {
 }
 
 .input-group input,
-select {
+select,
+button {
     width: 174px;
     height: 52px;
 }
 
-.input-group input::placeholder,
+.input-group,
+input[type=text],
+input::placeholder,
 select,
-input[type=submit] {
+button,
+button[type=submit] {
     padding-left: 16px;
     font-size: 16px;
     color: #89898B;
+    border: none;
     border-radius: 7px;
 }
 
-.input-group input[type=submit] {
+.input-group button[type=submit] {
     color: white;
     background-color: #FF5400;
     border: none;
@@ -69,10 +75,56 @@ input[type=submit] {
 
 
 
+/* popular tours section */
+.tours-content {
+    display: flex;
+    align-items: center;
+}
+
+.tours-content h2 {
+    font-size: 40px;
+    color: #131318;
+    margin-bottom: 24px;
+}
+
+.tours-content p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+    color: #5A5A5D;
+}
+
+.tours-content ul {
+    padding-left: 20px;
+    margin-bottom: 24px;
+}
+
+.tours-content ul li {
+    font-size: 16px;
+    line-height: 26px;
+    color: #5A5A5D;
+    margin-bottom: 16px;
+}
+
+.orange-btn {
+    color: white;
+    background-color: #FF5400;
+}
+
+.tour-box {
+    justify-content: space-between;
+}
+
+
+
+
 
 /* mobile device responsive */
 @media screen and (max-width:600px) {
 
+
+
+    /* explore travel section styles */
     .input-group,
     .hero-content {
         width: 80%;
@@ -80,7 +132,8 @@ input[type=submit] {
     }
 
     .input-group input,
-    select {
+    select,
+    button {
         width: 100%;
         margin-bottom: 16px;
     }
@@ -94,6 +147,20 @@ input[type=submit] {
         font-size: 14px;
         line-height: 21px;
         margin-bottom: 32px;
+    }
+
+
+    /* popular tours section */
+    .tours-content {
+        flex-direction: column;
+    }
+
+    .tours-content h2 {
+        font-size: 20px;
+    }
+
+    .tours-content p {
+        font-size: 14px;
     }
 
 
