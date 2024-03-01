@@ -1,3 +1,100 @@
-h1 {
-    color: red;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+/* explore travel section styles */
+
+#hero-banner {
+    height: 535px;
+    background-image: url('./images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+}
+
+.hero-content {
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 64px;
+    margin-bottom: 24px;
+}
+
+.hero-content p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 48px;
+}
+
+.input-group {
+    background-color: rgba(255, 255, 255, 0.300);
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.input-group input,
+select {
+    width: 174px;
+    height: 52px;
+}
+
+.input-group input::placeholder,
+select,
+input[type=submit] {
+    padding-left: 16px;
+    font-size: 16px;
+    color: #89898B;
+    border-radius: 7px;
+}
+
+.input-group input[type=submit] {
+    color: white;
+    background-color: #FF5400;
+    border: none;
+}
+
+
+
+
+/* mobile device responsive */
+@media screen and (max-width:600px) {
+
+    .input-group,
+    .hero-content {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .input-group input,
+    select {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .hero-content h1 {
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+
+    .hero-content p {
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 32px;
+    }
+
+
 }
