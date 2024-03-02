@@ -282,7 +282,7 @@ button[type=submit] {
 
 .news-box-2 img {
     width: 100%;
-    min-height: 422px;
+    max-height: 422px;
 }
 
 .news-box-1 h4 {
@@ -456,7 +456,7 @@ footer hr {
     }
 
     #footer {
-        margin-top: 500px;
+        margin-top: 400px;
     }
 
 
