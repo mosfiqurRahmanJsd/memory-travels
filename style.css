@@ -79,6 +79,7 @@ button[type=submit] {
 .tours-content {
     display: flex;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .tours-content h2 {
@@ -115,20 +116,80 @@ button[type=submit] {
     justify-content: space-between;
 }
 
+.tour-box img {
+    width: 100%;
+}
 
 
+/* Destination styles */
+.destination {
+    text-align: center;
+}
+
+.destination h2 {
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.destination p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 48px;
+}
+
+.destination-img-gallary {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.destination-img-gallary img {
+    width: 100%;
+    height: 100%;
+}
+
+.grid-item-1 {
+    grid-column: auto / span 6;
+}
+
+.grid-item-2 {
+    grid-column: auto / span 6;
+}
+
+
+.grid-item-3 {
+    grid-column: auto /span 3;
+}
+
+.grid-item-4 {
+    grid-column: auto /span 6;
+}
+
+.grid-item-5 {
+    grid-column: auto /span 3;
+}
+
+.grid-item-6 {
+    grid-column: auto /span 5;
+}
+
+.grid-item-7 {
+    grid-column: auto /span 7;
+}
 
 
 /* mobile device responsive */
 @media screen and (max-width:600px) {
-
-
 
     /* explore travel section styles */
     .input-group,
     .hero-content {
         width: 80%;
         margin: 0 auto;
+    }
+
+    .input-group input[type=text] {
+        width: 95%;
     }
 
     .input-group input,
@@ -161,6 +222,16 @@ button[type=submit] {
 
     .tours-content p {
         font-size: 14px;
+    }
+
+    /* Destination styles */
+    .destination-img-gallary {
+        display: block;
+    }
+
+    .destination-img-gallary img {
+        margin-bottom: 16px;
+        height: 300px;
     }
 
 
