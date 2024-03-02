@@ -309,7 +309,7 @@ button[type=submit] {
 }
 
 .choose-box {
-    width: 573px;
+    width: 40%;
     padding: 32px 55px 32px 32px;
     border-radius: 25px;
 }
@@ -475,6 +475,31 @@ footer hr {
 }
 
 
+/* ***********
+RESPONSIVE DESIGN
+************** */
+
+/* Desktop or Laptop */
+@media screen and (max-width:992px) {
+    header nav ul li a {
+        padding: 0 24px;
+    }
+}
+
+@media screen and (max-width:1123px) {
+
+    /* choose */
+    .choose-box {
+        width: 30%;
+    }
+}
+
+
+
+
+
+
+
 /* mobile device responsive */
 @media screen and (max-width:600px) {
 
@@ -538,6 +563,12 @@ footer hr {
 
     .tours-content p {
         font-size: 14px;
+    }
+
+    /* choose */
+    .choose-box {
+        width: 100%;
+
     }
 
     /* Destination styles */
