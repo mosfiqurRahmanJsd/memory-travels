@@ -124,6 +124,7 @@ button[type=submit] {
 /* Destination styles */
 .destination {
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .destination h2 {
@@ -135,6 +136,7 @@ button[type=submit] {
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 48px;
+    color: #5A5A5D;
 }
 
 .destination-img-gallary {
@@ -195,6 +197,61 @@ button[type=submit] {
     font-size: 28px;
     font-weight: 700;
 }
+
+/* choose boxes section */
+.choose h2 {
+    font-size: 40px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.choose p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 48px;
+    color: #5A5A5D;
+    text-align: center;
+}
+
+.choose-boxs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+
+.choose-box {
+    width: 573px;
+    padding: 32px 55px 32px 32px;
+    border-radius: 25px;
+}
+
+.choose-box h4 {
+    font-size: 24px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.choose-box p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.choose-box1 {
+    background-color: #FFFBF7;
+    border: 1px solid #FEEDD9;
+}
+
+.choose-box2 {
+    background-color: #F4FDFF;
+    border: 1px solid #CBF4FD;
+}
+
+.choose-box3 {
+    background-color: #FEF6F6;
+    border: 1px solid #FAD2D2;
+}
+
 
 
 
