@@ -54,8 +54,7 @@ button {
     height: 52px;
 }
 
-.input-group,
-input[type=text],
+.input-group input[type=text],
 input::placeholder,
 select,
 button,
@@ -199,6 +198,10 @@ button[type=submit] {
 }
 
 /* choose boxes section */
+.choose {
+    margin-bottom: 100px;
+}
+
 .choose h2 {
     font-size: 40px;
     margin-bottom: 24px;
@@ -253,8 +256,86 @@ button[type=submit] {
 }
 
 
+/* newsletter styles */
+.newsletter {
+    height: 422px;
+    display: flex;
+    gap: 24px;
+}
+
+.newsletter hr {
+    color: #E7E7E8;
+}
+
+.news-box-1 {
+    width: 40%;
+    padding: 40px;
+    border: 2px solid #FF5400;
+    border-radius: 25px;
+}
+
+.news-box-2 {
+    width: 60%;
+    position: relative;
+}
+
+.news-box-2 img {
+    width: 100%;
+    height: 422px;
+}
+
+.news-box-1 h4 {
+    font-size: 24px;
+}
+
+.news-box-1 p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+    color: #5A5A5D;
+}
+
+.subscribe-form {
+    margin-top: 24px;
+}
+
+.subscribe-form input {
+    width: 100%;
+    margin-bottom: 16px;
+    height: 52px;
+    border: none;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+}
+
+.subscribe-form input[type="submit"] {
+    margin-top: 8px;
+    color: white;
+    background-color: #FF5400;
+    font-size: 20px;
+    font-weight: 700;
+}
 
 
+.save-box {
+    position: absolute;
+    bottom: 54px;
+    right: 12px;
+    background-color: #FF5400;
+    text-align: center;
+    color: white;
+    padding: 45px 35px;
+    border-radius: 20px;
+    transform: rotate(-30deg);
+}
+
+.save-box p {
+    font-size: 24px;
+}
+
+.save-box h4 {
+    font-size: 32px;
+}
 
 /* mobile device responsive */
 @media screen and (max-width:600px) {
@@ -310,6 +391,20 @@ button[type=submit] {
     .destination-img-gallary img {
         margin-bottom: 16px;
         height: 300px;
+    }
+
+
+    /* newsletter styles */
+    .newsletter {
+        flex-direction: column;
+    }
+
+    .news-box-1 {
+        width: auto;
+    }
+
+    .news-box-2 {
+        width: auto;
     }
 
 
