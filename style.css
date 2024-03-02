@@ -3,9 +3,39 @@
     padding: 0;
 }
 
+header,
 main {
     width: 90%;
     margin: 0 auto;
+}
+
+
+/* header section */
+header {
+    margin-bottom: 48px;
+    margin-top: 25px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li a {
+    color: #89898B;
+    text-decoration: none;
+    padding: 0 44px;
+    font-size: 18px;
+}
+
+header nav ul li a.active {
+    color: #FF5400;
+    font-weight: bold;
 }
 
 
@@ -463,6 +493,5 @@ footer hr {
     #footer {
         margin-top: 400px;
     }
-
 
 }
