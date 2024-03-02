@@ -261,10 +261,11 @@ button[type=submit] {
     height: 422px;
     display: flex;
     gap: 24px;
+    margin-bottom: 100px;
 }
 
 .newsletter hr {
-    color: #E7E7E8;
+    border: 1px solid #E7E7E8;
 }
 
 .news-box-1 {
@@ -281,7 +282,7 @@ button[type=submit] {
 
 .news-box-2 img {
     width: 100%;
-    height: 422px;
+    min-height: 422px;
 }
 
 .news-box-1 h4 {
@@ -336,6 +337,53 @@ button[type=submit] {
 .save-box h4 {
     font-size: 32px;
 }
+
+
+
+/* footer styles */
+#footer {
+    background-color: #F3F3F3;
+    padding: 110px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 15px;
+}
+
+.footer-logo h3 {
+    font-size: 32px;
+}
+
+
+#footer p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #5A5A5D;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.color-highlight {
+    color: #FF5400;
+}
+
+.footer-icon {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+footer hr {
+    border: 1px solid #DDDDDD;
+}
+
 
 /* mobile device responsive */
 @media screen and (max-width:600px) {
@@ -405,6 +453,10 @@ button[type=submit] {
 
     .news-box-2 {
         width: auto;
+    }
+
+    #footer {
+        margin-top: 500px;
     }
 
 
