@@ -346,7 +346,7 @@ button[type=submit] {
     padding: 110px;
 }
 
-.footer-logo {
+.brand-logo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -354,12 +354,12 @@ button[type=submit] {
     margin-bottom: 15px;
 }
 
-.footer-logo h3 {
+.brand-logo h3 {
     font-size: 32px;
 }
 
 
-#footer p {
+footer p {
     font-size: 16px;
     line-height: 26px;
     color: #5A5A5D;
@@ -382,6 +382,11 @@ button[type=submit] {
 
 footer hr {
     border: 1px solid #DDDDDD;
+    margin-bottom: 50px;
+}
+
+.copyrights {
+    margin-bottom: 0;
 }
 
 
